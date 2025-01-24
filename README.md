@@ -63,6 +63,7 @@ Blue orthogonal shapes denote the algorithm’s steps, while the pink one denote
 ## Tutorial for Using the Tools
 
 ### a. Model Training in R
+[This step is optional. You can download the already trained models from the `models/` directory and use the tools directly.]
 
 The Elastic Net Regression models for scaffold properties (Bone Porosity, Area-to-Volume Ratio, Connectivity Density, Trabecular Spacing, Trabecular Thickness) can be trained using the R script provided in the `scripts/` directory.
 
