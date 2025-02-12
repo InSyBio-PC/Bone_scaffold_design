@@ -166,7 +166,7 @@ The algorithm was implemented based on the existing code available at this link 
    
    <div align="center">
        <img src="https://github.com/user-attachments/assets/f1db5718-00b5-41e2-a49e-a93a1a420a39" width="40%">
-       <img src="https://github.com/user-attachments/assets/3ea262c4-5751-4103-95d2-9cde7cf03266" width="40%">
+       <img src="https://github.com/user-attachments/assets/787c1018-e83d-4d51-8361-9ba423fc59c6" width="40%">
    </div>
 
 4. Finally, the last two steps involve converting the mesh into a **solid**, allowing it to be imported into software like Autodesk and making it suitable for 3D printing. The final step is an **inspection** to remove any artifacts generated during the process. A **threshold** is set to determine the size of small objects to be eliminated, ensuring a clean and optimized scaffold structure.
@@ -210,7 +210,7 @@ Set up Python dependencies:
     ```
 
 **Outputs:**
-The parameters are then saved in an **Excel file** named **"results"**, which will be used to build the database for training the model presented later.
+The parameters are then saved in an **Excel file** named **"results"**, which will be used to build the database for training the model presented previously.
 
 ---
 
