@@ -118,7 +118,12 @@ The Optimization Tool refines scaffold parameters to meet user-defined property 
     install.packages(c("glmnet", "caret", "e1071"))    
 
 ---
+## Access to the Web Interface
+The web interface is available at: https://diagnostics.insybio.com
 
+If you would like to use the platform, please contact us to request a free account. 
+
+---
 ## How to create the scaffold library (optional)
 
 ### 1. Algorithm for creating the scaffolds remotely
