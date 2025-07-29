@@ -39,26 +39,6 @@ The tools are packaged in a user-friendly web interface (available at: https://d
 - Backend: Processes user requests, runs Python-based algorithms, and communicates with the database.
 - Database: Manages structured data storage for scaffold parameters, results, and logs.
   
----
-
-## Methodology Flowcharts
-### A. Flowchart of the proposed Scaffold-Based Prediction and Optimization Workflow.
-![image](https://github.com/user-attachments/assets/e3857cb3-f6e1-41db-b708-a84f11aa748f)
-
-
-
-The scaffold parameters are used as input into 3D modeling tools e.g. Meshmixer (blue orthogonal box) for scaffold design. Structural characteristics such as trabecular thickness and connectivity density are calculated (gray orthogonal box) and used to train Elastic Net Regression models with 5-fold cross-validation (red hexagonal box). The trained models underpin:
-
-- **Prediction Tool:** Estimates scaffold performance based on user-provided design parameters (pink orthogonal box).
-- **Optimization Tool:** Uses a Multi-objective Evolutionary Algorithm to identify non-dominated solutions (pink orthogonal box).
-
-### Β. Flowchart of the proposed Multi-objective Optimization Algorithm.
-![image](https://github.com/user-attachments/assets/f168c53c-8f08-42c7-ad77-43e882a18699)
-
-
-Blue orthogonal shapes denote the algorithm’s steps, while the pink one denotes the output (Pareto Front). The light blue rhomboid denotes the termination criterion (number of generations reached). White orthogonal shapes denote a simplified example of an EA’s chromosome (scaffold configurations). The chromosome consists of the Sphere Diameter (SDm), Sphere Distance (SD), Delaunay Mesh Dimension (DMD), and Delaunay Point Spacing (DPS) variables (presented from left to right). Their range of values is indicated in the brackets above them. 
-
----
 
 ## Tutorial for Using the Tools
 
